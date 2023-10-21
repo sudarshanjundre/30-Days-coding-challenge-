@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+void addition ()
 {
   int a,b;
   printf("Enter the first number:-");
@@ -7,5 +7,9 @@ int main()
     printf("Enter the second number:-");
     scanf("%d",&b);
   printf("addition is:-%d",a+b);
+}
+int main()
+{
+  addition();
   return 0;
 }
