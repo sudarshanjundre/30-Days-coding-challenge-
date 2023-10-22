@@ -1,3 +1,4 @@
+/*program for addtion of two numbers without using third variable*/
 #include<stdio.h>
 void addition ()
 {
